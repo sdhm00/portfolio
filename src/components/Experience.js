@@ -33,7 +33,7 @@ class Experience extends Component {
             className="vertical-timeline-element--work"
             date={work.years}
             iconStyle={{
-              background: "#AE944F",
+              background: "#949398FF",
               color: "#fff",
               textAlign: "center",
             }}
@@ -56,7 +56,15 @@ class Experience extends Component {
             >
               {work.company}
             </h4>
-            <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+            <div
+              style={{
+                textAlign: "left",
+                marginTop: "15px",
+                marginBottom: "5px",
+              }}
+            >
+              {tech}
+            </div>
           </VerticalTimelineElement>
         );
       });
@@ -66,19 +74,20 @@ class Experience extends Component {
       <section id="resume" className="pb-5">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
-            <h1 className="section-title" style={{ color: "black" }}>
-              <span className="text-black" style={{ textAlign: "center" }}>
-                {sectionName}
-              </span>
+            <h1 className="section-title" style={{ color: "#FFF" }}>
+              <span style={{ textAlign: "center" }}>{sectionName}</span>
             </h1>
           </div>
         </div>
-        <div className="col-md-8 mx-auto">
+        <div
+          className="col-md-8 mx-auto"
+          style={{ marginTop: "2%", marginBottom: "5%" }}
+        >
           <VerticalTimeline>
             {work}
             <VerticalTimelineElement
               iconStyle={{
-                background: "#AE944F",
+                background: "#949398FF",
                 color: "#fff",
                 textAlign: "center",
               }}
