@@ -45,7 +45,7 @@ class Header extends Component {
     return (
       <header
         id="home"
-        style={{ height: window.innerHeight - 140, display: "block" }}
+        style={{ height: window.innerHeight, display: "block" }}
       >
         <div className="row aligner" style={{ height: "100%" }}>
           <div className="col-md-12">
@@ -65,11 +65,10 @@ class Header extends Component {
                   alt="Avatar placeholder"
                 />
               </div>
-              <br />
-              <h3 className="mb-0">
+              <h3 className="mb-0" style={{ height: "50px" }}>
                 <Typical
                   className="title-sub-intro"
-                  steps={["Welcome ! My name is"]}
+                  steps={["Welcome!", 1500, "my name is"]}
                   wrapper="p"
                 />
               </h3>

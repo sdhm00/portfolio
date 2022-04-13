@@ -64,5 +64,18 @@
           "level": "60"
         }
       ]
+    },
+    "characters":{
+      "icons":[
+        {
+          "name": "Finance",
+          "class": "BiTrendingUp"
+        },
+        {
+          "name": "Science",
+          "class":"GiMaterialsScience"
+        }
+      ]
+
     }
   }

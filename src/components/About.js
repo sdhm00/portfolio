@@ -1,9 +1,15 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
+import Reveal from "react-reveal/Reveal";
+import Fade from "react-reveal/Fade";
+
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
 import profilepic from "../assets/images/myProfile.jpg";
+import Badge from "react-bootstrap/Badge";
+import { BiTrendingUp } from "react-icons/bi";
+
 class About extends Component {
   render() {
     // if (this.props.sharedBasicInfo) {
@@ -15,16 +21,31 @@ class About extends Component {
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
     }
+    const characteristic = ["finance", "science", "coding"];
+    const mainChar = characteristic.map((charc, i) => {
+      return (
+        <div>
+          <Badge circle className="main-badge mr-2 mb-2" key={i}>
+            {charc}
+          </Badge>
+          <BiTrendingUp />
+        </div>
+      );
+    });
 
     return (
-      <section id="about">
+      <section
+        id="about"
+        style={{ height: window.innerHeight - 150, display: "block" }}
+      >
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
+          <h1 style={{ color: "black", marginBottom: "50px" }}>
             <span>{sectionName}</span>
           </h1>
           <div className="row center mx-auto mb-5">
-            <div className="col-md-4 mb-5 center">
-              <div className="polaroid">
+            <div className="col-md-1" style={{ backgroundColor: "red" }}>
+              {mainChar}
+              {/* <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="350px"
@@ -44,10 +65,10 @@ class About extends Component {
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
-              </div>
+              </div> */}
             </div>
 
-            <div className="col-md-8 left">
+            <div className="col-md-7">
               <div className="col-md-10">
                 <div className="card">
                   <div className="card-header">
@@ -78,7 +99,7 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello} </span>
                     <br />
                     <br />
                     {about}
