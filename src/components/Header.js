@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import profilepic from "../assets/images/mypic4.JPG";
 
 class Header extends Component {
   titles = [];
@@ -50,12 +51,28 @@ class Header extends Component {
           <div className="col-md-12">
             <div>
               {/* laptop icon */}
-              <span
+              {/* <span
                 className="iconify header-icon"
-                data-icon="la:laptop-code"
+                data-icon="logos:codersrank"
                 data-inline="false"
-              ></span>
+              ></span> */}
+              <div className="profile-pic-container">
+                <img
+                  className="profile-img"
+                  height="380px"
+                  //width="350px"
+                  src={profilepic}
+                  alt="Avatar placeholder"
+                />
+              </div>
               <br />
+              <h3 className="mb-0">
+                <Typical
+                  className="title-sub-intro"
+                  steps={["Welcome ! My name is"]}
+                  wrapper="p"
+                />
+              </h3>
               <h1 className="mb-0">
                 <Typical className="title-name" steps={[name]} wrapper="p" />
               </h1>

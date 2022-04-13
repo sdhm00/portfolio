@@ -26,6 +26,13 @@ html {
 	font-size: 150%;
 }
 
+.title-sub-intro {
+	font-family: 'Raleway', sans-serif;
+	//letter-spacing: 3px;
+	font-size: 100%;
+}
+
+
 .title-styles {
 	font-family: 'Raleway', sans-serif;
 	font-size: 250%;
@@ -447,3 +454,52 @@ footer a:focus {
 	margin-top: 50px;
 	font-size: 22px;
 }
+
+// .profile-img img{
+// 	// display: block;
+// 	// width: 350px;
+// 	//height: 350px;
+// 	// bottom: 5%;
+// 	// margin: -2% auto auto -2%; 
+// 	// border-radius: 50%;
+// 	// transition: transform 500ms ease;
+// 	// background-size: cover;
+// 	//z-Index: -1;
+// }
+.profile-img:hover{
+	transform: scale(1.5);
+	transition: transform 500ms ease;
+}
+
+
+.profile-pic-container{
+	// position: relative;
+	display: inline-flex;
+	width: 25vh;
+	height: 25vh;
+	border-radius: 50%;
+	overflow: hidden;
+	border-width: 5px;
+	border-color: #c0c0c0;
+	border-style: solid;
+	// z-Index: 0;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 3%;
+	padding-left: 0.5%;
+	// display: block;
+	// touch-action: none;
+	// -ms-touch-action: none;
+	// transition: transform 500ms ease;
+}
+.profile-pic-container:hover {
+	border-width: 8px;
+	border-color: #2fff97;
+  }
+// .profile-pic-container:hover {
+// 	.profile-img {
+// 	  transform: scale(1.25);
+// 	  -ms-touch-action: none;
+// 	  touch-action: none;
+// 	}
+//   }

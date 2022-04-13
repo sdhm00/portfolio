@@ -1,16 +1,16 @@
 {
     "basic_info": {
-      "name": "Jer-Shen Jeffrey Chen",
+      "name": "Jeffrey Chen",
       "titles": [ "Quantitative Researcher/Trader", "Algo Engineer", "Machine Learning Engineer", "Crypto/DeFi Trader","Software Engineer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/pewapplepie",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
-          "url": "https://www.instagram.com",
+          "url": "https://www.linkedin.com/in/jeffrey-chen-537155173/",
           "class": "fab fa-instagram"
         }
       ],
@@ -19,7 +19,7 @@
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
+          "name": "C++",
           "class": "devicon-html5-plain",
           "level": "95"
         },
