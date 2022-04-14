@@ -8,9 +8,20 @@ import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
 import profilepic from "../assets/images/myProfile.jpg";
 import Badge from "react-bootstrap/Badge";
-import { BiTrendingUp } from "react-icons/bi";
+import { Balance, Molecule, Window } from "pebble-icons";
 
 class About extends Component {
+  getMyIcon(icon) {
+    switch (icon) {
+      case "finance":
+        return <Balance className="character-icon" />;
+      case "science":
+        return <Molecule className="character-icon" />;
+      case "coding":
+        return <Window className="character-icon" />;
+    }
+  }
+
   render() {
     // if (this.props.sharedBasicInfo) {
     //   // var profilepic = "images/" + this.props.sharedBasicInfo.image;
@@ -18,17 +29,25 @@ class About extends Component {
     // }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
-      var hello = this.props.resumeBasicInfo.description_header;
+      var intro = this.props.resumeBasicInfo.description_header;
+      var passion = this.props.resumeBasicInfo.passions;
       var about = this.props.resumeBasicInfo.description;
     }
-    const characteristic = ["finance", "science", "coding"];
+    const characteristic = ["coding", "science", "finance"];
     const mainChar = characteristic.map((charc, i) => {
       return (
-        <div>
-          <Badge circle className="main-badge mr-2 mb-2" key={i}>
+        <div className="character-container">
+          {this.getMyIcon(charc)}
+          {/* <div className="characters" key={i}> */}
+          {/* <h2
+              className="m-auto"
+              style={{ display: "inline-flex", height: "10px" }}
+            > */}
+          <h2 className="characters" key={i}>
             {charc}
-          </Badge>
-          <BiTrendingUp />
+          </h2>
+          {/* </h2> */}
+          {/* </div> */}
         </div>
       );
     });
@@ -36,14 +55,21 @@ class About extends Component {
     return (
       <section
         id="about"
-        style={{ height: window.innerHeight - 150, display: "block" }}
+        style={{ height: window.innerHeight - 100, display: "block" }}
       >
         <div className="col-md-12">
           <h1 style={{ color: "black", marginBottom: "50px" }}>
             <span>{sectionName}</span>
           </h1>
-          <div className="row center mx-auto mb-5">
-            <div className="col-md-1" style={{ backgroundColor: "red" }}>
+          <div className="row mx-auto mb-5">
+            <div
+              className="row-md-3 m-auto flexbox"
+              style={{
+                // backgroundColor: "red",
+                width: "15vh",
+                height: "auto",
+              }}
+            >
               {mainChar}
               {/* <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
@@ -70,7 +96,7 @@ class About extends Component {
 
             <div className="col-md-7">
               <div className="col-md-10">
-                <div className="card">
+                <div className="shadow-lg card">
                   <div className="card-header">
                     <span
                       className="iconify"
@@ -93,16 +119,18 @@ class About extends Component {
                   <div
                     className="card-body font-trebuchet text-justify ml-5 mr-5"
                     style={{
-                      height: "30vh",
+                      height: "40vh",
                       fontSize: "132%",
                       lineHeight: "200%",
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} </span>
+                    <span className="wave">{intro}, </span>
                     <br />
                     <br />
-                    {about}
+                    <div className="common-text">{about}</div>
+                    <br />
+                    <div className="common-text">{passion}</div>
                   </div>
                 </div>
               </div>

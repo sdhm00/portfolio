@@ -152,17 +152,18 @@ class App extends Component {
           />
         </Fade> */}
         <Fade left>
-          <Skills
-            sharedSkills={this.state.sharedData.skills}
-            resumeBasicInfo={this.state.resumeData.basic_info}
-          />
-        </Fade>
-        <Fade left>
           <Experience
             resumeExperience={this.state.resumeData.experience}
             resumeBasicInfo={this.state.resumeData.basic_info}
           />
         </Fade>
+        <Fade left>
+          <Skills
+            sharedSkills={this.state.sharedData.skills}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+        </Fade>
+
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );

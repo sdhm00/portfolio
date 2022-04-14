@@ -1,7 +1,20 @@
 body[data-theme="light"] {
     @import '../src/scss/light-slider.scss';
- 
+
     .slider-tab {
-       background-color: #D7CAAA;
+        background-color: #D7CAAA;
     }
 }
+
+
+// #about {
+//     .character-container {
+//         background-color: rgb(182, 242, 215);
+
+//     }
+
+//     .character-icon {
+//         background-color: rgba(0, 32, 64, 0.778);
+
+//     }
+// }

@@ -1,7 +1,8 @@
 {
     "basic_info": {
-      "description_header": "Hello",
-      "description": "My passion in quant finance is driven by my desire to combine financial knowledge with in-depth data analysis and machine learning technique to surface impactful insight and facilitate sound-making decisions among various business strategies",
+      "description_header": "an Algo Developer, a Researcher, a Quant and Crypto Lover",
+      "description": "Jeffrey works as Algo Engineer at BlackRock where he develops advanced algorithms and optimization methods to create a next-generation portfolio trading engine. He also has a strong research background in machine learning and large-scale/unstructured data analysis (former Analytical Chemistry Lab Researcher)",
+      "passions": "Through various trading competitions and rigorous coursework, Jeffrey possesses hands-on experience in alpha generation, statistical arbitrage, and asset allocation models. He is also passionate about crypto and Defi applications, including a passive income strategy registers 80% APY from yield farm stacking",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
