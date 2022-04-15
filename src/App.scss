@@ -43,6 +43,21 @@ html {
 	width: 150px;
 }
 
+.common-text {
+	font-family: Raleway, Georgia, 'Times New Roman', Times, serif;
+	font-size: medium;
+	//font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bullet-point {
+	font-family: Raleway, sans-serif;
+	//letter-spacing: 3px;
+	font-size: 1.2rem;
+	margin: 5px;
+	//font-weight: bold;
+}
+
+
 header {
 	position: relative;
 	height: 520px;
@@ -52,7 +67,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #f8e479;
+	background-color: #FEF5EF;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -189,11 +204,6 @@ header h1 {
 	text-align: center;
 }
 
-.common-text {
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: medium;
-	//font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 
 .polaroid img {
 	display: block;
@@ -246,7 +256,7 @@ header h1 {
 #resume {
 	// background: #efe1bd;
 	background: #949398FF;
-	height: 70vh;
+	height: 100vh;
 	width: 100%;
 }
 
@@ -261,7 +271,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #CE7DA5 !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

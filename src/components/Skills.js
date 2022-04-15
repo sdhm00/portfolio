@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import ProgressBar from "../features/PBar";
+//import * as ReactDOM from "react-dom/client";
 
 class Skills extends Component {
   render() {
@@ -23,6 +25,10 @@ class Skills extends Component {
         );
       });
     }
+    var ReactDOM = require("react-dom/client");
+
+    var pbar = <ProgressBar />;
+    var pbar = ReactDOM.creatRoot(document.getElementById("pbar"));
 
     return (
       <section
@@ -41,6 +47,7 @@ class Skills extends Component {
             </ul>
           </div>
         </div>
+        <div id="pbar"></div>
       </section>
     );
   }

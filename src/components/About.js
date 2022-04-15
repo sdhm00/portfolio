@@ -55,7 +55,7 @@ class About extends Component {
     return (
       <section
         id="about"
-        style={{ height: window.innerHeight - 100, display: "block" }}
+        style={{ height: window.innerHeight, display: "block" }}
       >
         <div className="col-md-12">
           <h1 style={{ color: "black", marginBottom: "50px" }}>
@@ -96,7 +96,7 @@ class About extends Component {
 
             <div className="col-md-7">
               <div className="col-md-10">
-                <div className="shadow-lg card">
+                <div className="shadow-lg card" style={{ height: "auto" }}>
                   <div className="card-header">
                     <span
                       className="iconify"
@@ -119,8 +119,8 @@ class About extends Component {
                   <div
                     className="card-body font-trebuchet text-justify ml-5 mr-5"
                     style={{
-                      height: "40vh",
-                      fontSize: "132%",
+                      height: "auto",
+                      fontSize: "100%",
                       lineHeight: "200%",
                     }}
                   >

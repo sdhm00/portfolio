@@ -1,4 +1,4 @@
-body[data-theme="dark"] {  
+body[data-theme="dark"] {
 
    @import '../src/scss/dark-slider.scss';
 
@@ -34,22 +34,27 @@ body[data-theme="dark"] {
 
    header {
       background-color: #494949;
-      h1{
+
+      h1 {
          color: white;
       }
-      h3{
+
+      h3 {
          color: #2fffb3;
       }
    }
 
    #about {
       background-color: #7f7f7f;
+
       h1 span {
          color: white;
       }
+
       .polaroid span {
-         background:  #6d6d6d;
+         background: #6d6d6d;
       }
+
       .card {
          background: #6d6d6d;
          color: white;
@@ -58,12 +63,15 @@ body[data-theme="dark"] {
 
    #portfolio {
       background: #5b5b5b;
+
       .section-title {
          color: white !important;
       }
+
       .foto div {
          background: #6d6d6d;
       }
+
       .project-title-settings {
          color: white;
       }
@@ -72,12 +80,17 @@ body[data-theme="dark"] {
    #resume {
       filter: brightness(80%);
       background: #5b5b5b;
+
       .section-title {
          color: white !important;
       }
 
-      .experience-badge {
-         background: #919191 !important;
+      h1 span {
+         color: white;
+      }
+
+      .vertical-timeline-element- .experience-badge {
+         background: rgb(88, 75, 83) !important;
          color: white;
       }
 
@@ -92,7 +105,8 @@ body[data-theme="dark"] {
       .vertical-timeline-element-icon {
          background: #919191 !important;
       }
-      @media only screen and (max-width: 1169px) { 
+
+      @media only screen and (max-width: 1169px) {
          .vertical-timeline-element-date {
             color: black;
          }
