@@ -18,50 +18,36 @@
     },
     "skills": {
       "icons": [
+
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "potion-content-95"
+        },
+        {
+          "name": "Jupyter/R",
+          "class": "devicon-jupyter-plain",
+          "level": "potion-content-95"
+        },
         {
           "name": "C++",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
+          "class": "devicon-c-plain-wordmark",
+          "level": "potion-content-90"
         },
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
-          "level": "70"
+          "level": "potion-content-75"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "potion-content-75"
         },
         {
           "name": "MySql",
           "class": "devicon-mysql-plain",
-          "level": "60"
+          "level": "potion-content-75"
         }
       ]
     },

@@ -99,7 +99,7 @@ header {
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
-	border-radius: 8px;
+	border-radius: 50%;
 }
 
 .language {
@@ -418,7 +418,7 @@ header h1 {
 }
 
 #skills {
-	background: #656c7e;
+	background: #455e9c;
 	min-height: 180px;
 	height: 30vh;
 	width: 100%;
@@ -443,6 +443,10 @@ header h1 {
 	color: #FFF;
 	text-align: center;
 	position: relative;
+}
+
+.skill-icon:hover {
+	color: violet 600;
 }
 
 footer {
@@ -602,4 +606,103 @@ footer a:focus {
 	top: 44.2%;
 	left: 22.5%;
 	z-index: 2;
+	text-shadow: .5px .5px #bcb6b6;
+
+}
+
+@mixin circle($h, $w) {
+	height: $h;
+	width: $w;
+	border-radius: 50%;
+}
+
+$bg-color: #455e9c;
+
+.potion-body {
+	$h: 100px; //200
+	$w: 100px; //200
+	@include circle($h, $w);
+	border: 6px solid #FFF;
+	position: relative;
+	//z-index: 2;
+}
+
+.potion-content-75 {
+	$h: 90px; //180
+	$w: 90px;
+	@include circle($h, $w);
+	background-color: $bg-color;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+
+	&::after {
+		$border-width: 10px;
+		content: "";
+		position: absolute;
+		border-radius: .5em .5em 5.56em 5.56em;
+		width: 135px; //270px;
+		height: 120px; //250px;
+		bottom: -60px; //-75px; //130
+		left: -15px; //30
+		background-color: #3acbba;
+		border-radius: 40%;
+		animation: drift 4000ms infinite cubic-bezier(0.5, 0.7, 0.7, 0.5);
+	}
+}
+
+.potion-content-95 {
+	$h: 90px; //180
+	$w: 90px;
+	@include circle($h, $w);
+	background-color: $bg-color;
+	position: relative;
+	overflow: hidden;
+
+	&::after {
+		$border-width: 10px;
+		content: "";
+		position: absolute;
+		border-radius: .5em .5em 5.563em 5.563em;
+		width: 135px; //270px;
+		height: 140px; //250px;
+		bottom: -55px; //-75px; //130
+		left: -15px; //30
+		background-color: #2effe7;
+		border-radius: 40%;
+		animation: drift 8000ms infinite cubic-bezier(0.7, 0.7, 0.7, 0.7);
+	}
+}
+
+.potion-content-90 {
+	$h: 90px; //180
+	$w: 90px;
+	@include circle($h, $w);
+	background-color: $bg-color;
+	position: relative;
+	overflow: hidden;
+
+	&::after {
+		$border-width: 10px;
+		content: "";
+		position: absolute;
+		border-radius: .5em .5em 5.563em 5.563em;
+		width: 130px; //270px;
+		height: 135px; //250px;
+		bottom: -60px; //-75px; //130
+		left: -15px; //30
+		background-color: #2ee8d2;
+		border-radius: 40%;
+		animation: drift 4000ms infinite cubic-bezier(0.5, 0.7, 0.7, 0.5);
+	}
+}
+
+@keyframes drift {
+	from {
+		transform: rotate(0deg);
+	}
+
+	from {
+		transform: rotate(360deg);
+	}
 }
