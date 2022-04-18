@@ -78,8 +78,11 @@ body[data-theme="dark"] {
    }
 
    #resume {
-      filter: brightness(80%);
+      //filter: brightness(50%);
+
       background: #5b5b5b;
+
+
 
       .section-title {
          color: white !important;

@@ -9,9 +9,9 @@
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
+          "name": "linkedin",
           "url": "https://www.linkedin.com/in/jeffrey-chen-537155173/",
-          "class": "fab fa-instagram"
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "myProfile.jpg"
@@ -45,7 +45,7 @@
           "level": "potion-content-75"
         },
         {
-          "name": "MySql",
+          "name": "Sql",
           "class": "devicon-mysql-plain",
           "level": "potion-content-75"
         }

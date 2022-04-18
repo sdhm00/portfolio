@@ -54,24 +54,23 @@ class About extends Component {
 
     return (
       <section
+        className="mx-auto"
         id="about"
-        style={{ height: window.innerHeight, display: "block" }}
+        style={{
+          height: window.innerHeight,
+          //width: "90%",
+          display: "block",
+        }}
       >
-        <div className="col-md-12">
-          <h1 style={{ color: "black", marginBottom: "50px" }}>
-            <span>{sectionName}</span>
-          </h1>
-          <div className="row mx-auto mb-5">
-            <div
-              className="row-md-3 m-auto flexbox"
-              style={{
-                // backgroundColor: "red",
-                width: "15vh",
-                height: "auto",
-              }}
-            >
-              {mainChar}
-              {/* <div className="polaroid">
+        <div style={{ width: "90%" }}>
+          <div className="col-md-12">
+            <h1 style={{ color: "black", marginBottom: "70px" }}>
+              <span>{sectionName}</span>
+            </h1>
+            <div className="row mx-auto mb-5">
+              <div className="m-auto">
+                {mainChar}
+                {/* <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="350px"
@@ -92,45 +91,47 @@ class About extends Component {
                   />
                 </span>
               </div> */}
-            </div>
+              </div>
 
-            <div className="col-md-7">
-              <div className="col-md-10">
-                <div className="shadow-lg card" style={{ height: "auto" }}>
-                  <div className="card-header">
-                    <span
-                      className="iconify"
-                      data-icon="emojione:red-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:yellow-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:green-circle"
-                      data-inline="false"
-                    ></span>
-                  </div>
-                  <div
-                    className="card-body font-trebuchet text-justify ml-5 mr-5"
-                    style={{
-                      height: "auto",
-                      fontSize: "100%",
-                      lineHeight: "200%",
-                    }}
-                  >
-                    <br />
-                    <span className="wave">{intro}, </span>
-                    <br />
-                    <br />
-                    <div className="common-text">{about}</div>
-                    <br />
-                    <div className="common-text">{passion}</div>
+              <div className="col-md-8">
+                <div className="col-md-10">
+                  <div className="shadow-lg card" style={{ height: "auto" }}>
+                    <div className="card-header">
+                      <span
+                        className="iconify"
+                        data-icon="emojione:red-circle"
+                        data-inline="false"
+                      ></span>{" "}
+                      &nbsp;{" "}
+                      <span
+                        className="iconify"
+                        data-icon="twemoji:yellow-circle"
+                        data-inline="false"
+                      ></span>{" "}
+                      &nbsp;{" "}
+                      <span
+                        className="iconify"
+                        data-icon="twemoji:green-circle"
+                        data-inline="false"
+                      ></span>
+                    </div>
+                    <div
+                      className="card-body font-trebuchet text-justify ml-5 mr-5"
+                      style={{
+                        height: "auto",
+                        fontSize: "100%",
+                        lineHeight: "200%",
+                      }}
+                    >
+                      <br />
+                      <span className="wave">{intro}, </span>
+                      <br />
+                      <br />
+                      <div className="common-text">{about}</div>
+                      <br />
+                      <div className="common-text">{passion}</div>
+                      <br />
+                    </div>
                   </div>
                 </div>
               </div>

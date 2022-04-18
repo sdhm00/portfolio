@@ -59,7 +59,6 @@ class Header extends Component {
               <div className="profile-pic-container">
                 <img
                   className="profile-img"
-                  height="380px"
                   //width="350px"
                   src={profilepic}
                   alt="Avatar placeholder"

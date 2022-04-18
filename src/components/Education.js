@@ -6,7 +6,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 
-class Experience extends Component {
+class Education extends Component {
   render() {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
@@ -107,7 +107,7 @@ class Experience extends Component {
           className="col-md-8 mx-auto"
           style={{ marginTop: "2%", marginBottom: "5%" }}
         >
-          <VerticalTimeline layout={"1-column-left"}>
+          <VerticalTimeline>
             {work}
             <VerticalTimelineElement
               iconStyle={{
@@ -126,4 +126,4 @@ class Experience extends Component {
   }
 }
 
-export default Experience;
+export default Education;
