@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
-import Projects from "./components/Projects";
+import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Fade from "react-reveal/Fade";
 
@@ -148,6 +148,12 @@ class App extends Component {
         <Fade left>
           <Skills
             sharedSkills={this.state.sharedData.skills}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+        </Fade>
+        <Fade left>
+          <Education
+            resumeEducation={this.state.resumeData.education}
             resumeBasicInfo={this.state.resumeData.basic_info}
           />
         </Fade>

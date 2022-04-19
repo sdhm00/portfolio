@@ -52,8 +52,10 @@ html {
 .bullet-point {
 	font-family: Raleway, sans-serif;
 	//letter-spacing: 3px;
-	font-size: 1.2rem;
-	margin: 5px;
+	font-size: 1.5rem;
+	margin: 10px;
+	height: auto;
+
 	//font-weight: bold;
 }
 
@@ -140,7 +142,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #fef5ef;
 	overflow: hidden;
 	height: 85vh;
 }
@@ -255,14 +257,27 @@ header h1 {
 
 #resume {
 	// background: #efe1bd;
-	background: #949398FF;
-	height: 100vh;
+	background: #D6E3F8;
+	//height: 100vh;
 	width: 100%;
+}
+
+.resume-date {
+	font-size: medium;
+	background-color: red;
+	left: 0;
+	margin: auto;
+}
+
+.resume-icon-style {
+	background: #584b53;
+	color: #fff;
+	textAlign: center;
 }
 
 .experience-icon {
 	font-size: 300%;
-	margin-top: 25%;
+	margin: 10% auto auto auto;
 	text-align: center;
 }
 
@@ -364,6 +379,7 @@ header h1 {
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
 	font-size: 12px;
+
 }
 
 .awssld__next {
@@ -417,6 +433,138 @@ header h1 {
 	}
 }
 
+#edu {
+	background-color: #D6E3F8;
+}
+
+.sec_sp {
+	margin-bottom: calc(3rem + 5.128vw)
+}
+
+.table td,
+.table th {
+	color: var(--text-color);
+}
+
+.t_border {
+	border-color: var(--text-color) !important;
+}
+
+
+@-webkit-keyframes animate-positive {
+	0% {
+		width: 0%;
+	}
+}
+
+@keyframes animate-positive {
+	0% {
+		width: 0%;
+	}
+}
+
+.edu_acco_head {
+	border: 0;
+	background-color: transparent;
+	width: 100%;
+	text-align: start;
+}
+
+.edu_acco_head button {
+	border: none;
+	background-color: transparent;
+	border-color: #2effe7;
+
+}
+
+.edu_acco_head button:focus {
+	//outline: 0px auto -webkit-focus-ring-color;
+	border-color: #2effe7;
+
+}
+
+.panel-header button {
+	color: #ffffff;
+}
+
+.panel-header {
+	border: none;
+	background-color: transparent;
+	width: 100%;
+	text-align: start;
+	border-bottom: solid 2px black;
+	margin-bottom: 5px;
+
+}
+
+.panel-header button {
+	border: none;
+	background: transparent;
+}
+
+.panel-header button:focus {
+	outline: 0px auto -webkit-focus-ring-color;
+}
+
+.edu-body {
+	background-color: #455e9c;
+}
+
+.section-title {
+	font-size: 45px;
+}
+
+.service-active {
+	background-color: #455e9c;
+}
+
+.service__title {
+	padding: 8px 0;
+	//border-bottom: solid 2px black;
+	font-family: Raleway, sans-serif;
+	font-weight: 550;
+	color: #000;
+}
+
+.service_desc {
+	font-style: italic;
+}
+
+.service-section .service-category-title {
+	padding-bottom: 4px;
+}
+
+
+/*! CSS Used keyframes */
+
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+	}
+
+	to {
+		opacity: 1;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0);
+	}
+
+	to {
+		opacity: 1;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+	}
+}
+
 #skills {
 	background: #455e9c;
 	min-height: 180px;
@@ -424,6 +572,7 @@ header h1 {
 	width: 100%;
 	overflow: hidden;
 	padding-bottom: 5%;
+
 }
 
 .section-title {
@@ -489,19 +638,20 @@ footer a:focus {
 // }
 
 .profile-img {
-	width: 39vh;
+	width: 40vh;
 	height: auto;
-	object-fit: contain;
+	//object-fit: contain;
 	object-position: -50px -55px;
+	margin: -2% auto auto -2%;
 	transition: all 300ms linear;
 
 }
 
 .profile-img:hover {
 	cursor: pointer;
-	object-position: -35px -50px;
-	transform: scale(1.5);
-	transition: all 300ms linear;
+	//object-position: -50px -55px; //-35px -50px;
+	transform: scale(1.2);
+	transition: all 250ms linear;
 }
 
 
@@ -517,6 +667,7 @@ footer a:focus {
 	border-width: 4px;
 	border-color: #c0c0c0;
 	border-style: solid;
+
 	// z-Index: 0;
 	// padding-bottom: 3%;
 	// padding-left: 1.5%;
@@ -526,11 +677,11 @@ footer a:focus {
 	// transition: transform 500ms ease;
 }
 
-.profile-pic-container,
-.profile-pic-container::before,
-.profile-pic-container::after {
-	box-sizing: content-box !important;
-}
+// .profile-pic-container,
+// .profile-pic-container::before,
+// .profile-pic-container::after {
+// 	box-sizing: content-box !important;
+// }
 
 .profile-pic-container:hover {
 	border-width: 6px;

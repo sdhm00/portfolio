@@ -89,27 +89,27 @@ class Skills extends Component {
               height: "auto",
               display: "block",
               // backgroundColor: "red",
-              marginTop: "2.2%",
               margin: "auto",
+              marginTop: "5%",
             }}
           >
             <h3
               style={{
-                font: "Open Sans",
+                font: "Raleway, sans-serif",
                 fontWeight: "200",
                 textAlign: "center",
                 letterSpacing: "",
                 color: "white",
               }}
             >
-              {/* Others: Linux, Shell Script, Smart Contract, Solidiy, React, App
-              Development */}
-              With Bachelor Science of Chemisty, Jeffrey pocess strong research
+              Others: Linux, Shell Script, Smart Contract, Solidiy, React, App
+              Development
+              {/* With Bachelor Science of Chemisty, Jeffrey pocess strong research
               mindset and analytical skillsets. He also enriched his computer
               skills by taking school courses, internship and self-learning.
               During his master study, Jeffrey put mosts effort in financial
               data science and algorithms-related fields, such as algo trading
-              and quant research.
+              and quant research. */}
             </h3>
           </div>
         </div>

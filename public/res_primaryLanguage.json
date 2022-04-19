@@ -7,7 +7,8 @@
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Experience",
+        "education":"Education"
       }
     },
     "projects": [
@@ -89,7 +90,10 @@
           "asdf"
         ],
         "technologies": [
-          "Architect wholistic framework to automate portfolio management through meta-algo to create next-generation trading engine"
+          "• Architect wholistic framework to automate portfolio management through meta-algo to build next-generation efficient trading engine library for BlackRock. Current team AUM 50B+",
+          "• Built efficient algorithms for data pipeline and hyper api to enhance dataflow performance between data storage and portfolio interface, presented 3x faster runtime in result",
+          "• Designed decision system to automate the ETF creation/redemption process that matches trading limitations and constraints for industry, sector, country etc"
+          
           
         ]
       },
@@ -101,7 +105,10 @@
           "Angular 7/8"
         ],
         "technologies": [
-          "Perform a research on the optimization techniques for passive tracking portfolio, including indepth study on stratified sampling in 3-dimensional strata, mix-integer optimizer and asset allocation model"
+          "• Perform a research on the optimization techniques for passive tracking portfolio, including indepth study on stratified sampling in 3-dimensional strata, mix-integer optimizer and asset allocation model",
+          "• Constructed a portfolio to passively tracks the Bloomberg Barclay US aggregate fixed income index using stratified sampling in 3-dimensional strata with different characteristics",
+          "• Build a convex optimizer (mixed-integer) to create two-layer portfolio optimized weights that match the duration, convexity, and DTS of the benchmark",
+          "• Developed asset sector allocation model from optimized portfolio to maximize the yield with constraint tracking errors"
         ]
       },
       {
@@ -112,7 +119,9 @@
           "Angular 7/8"
         ],
         "technologies": [
-          "Using machine learning models tools to analyze VIX future trading strategies pattern and building quantitative models to support new index development and derivative in-house pricing librabry"
+          "• Using machine learning models tools to analyze VIX future trading strategies pattern and building quantitative models to support new index development and derivative in-house pricing librabry",
+          "• Utilized machine learning tools (Kmeans and DTW) to build time-seires classification model to identify VIX futures trading strategies",
+          "• Collaborated with Northwestern University Professors to implement a new left-tail index that introduces robust measure of volatility jump risk"
         ]
       },
       {
@@ -123,8 +132,32 @@
           "Angular 7/8"
         ],
         "technologies": [
-          "Work with Seasoned Quant Reseacher and Machine Learning Engineer do develop comprehensive and robust deep learning model for alpha generation"
+          "• Work with Seasoned Quant Reseacher and Machine Learning Engineer do develop comprehensive and robust deep learning model for alpha generation",
+          "• Engineered data pipeline for Big-Data (over 20 GB and +200M datapoint of index returns) to proxy market dynamics",
+          "• Analyzed the impact of the VIX regimes switching on the portfolio's performance and provided stepwise improvements",
+          "• Built back-testing tools for drawdown and alpha calculation and performed code optimization"
         ]
+      }
+    ],
+    "education":[
+      {
+        "school":"UNIVERSITY of CALIFORNIA, LOS ANGELES",
+        "degree":"Master of Financial Engineering",
+        "coursework":"Coursework (GPA: 3.6/4.0): Statistical Arbitrage, Credit Markets, Machine Learning & Data Analytics, Quantitative Asset Management, Computational Finance, Stochastic Calculus, Fixed Income, Derivatives Markets, Empirical Methods in Finance, Econometrics, Investments, Risk Measurement and Management, Financial Decision Making",
+        "eventKey":"0"
+      },
+      {
+        "school":"NATIONAL TAIWAN UNIVERSITY",
+        "degree":"Bachelor Science of Chemistry",
+        "coursework":"Relevant Coursework (GPA: 3.5/4.3): Advanced Statistics, Calculus I&II, Data mining, Computer Programming, Using R for Data Analysis, Advanced Software Development, Laboratory Research and Training I&II (Identification of bacterial pathogens using mass spectrometry with unsupervised learning, Paper featured at 7th World Chinese Mass Spectrometry Conference)",
+        "eventKey":null
+      },
+      {
+        "school":"UNIVERSITY of CALIFORNIA, BERKELEY",
+        "degree":"Exchange Student with focus on Movie Study",
+        "eventKey":null,
+        "coursework":"Broadway Study, American Movie History"
+
       }
     ]
   }

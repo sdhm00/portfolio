@@ -64,6 +64,7 @@ class Header extends Component {
                   alt="Avatar placeholder"
                 />
               </div>
+              <br />
               <h3 className="mb-0" style={{ height: "50px" }}>
                 <Typical
                   className="title-sub-intro"

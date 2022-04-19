@@ -26,37 +26,32 @@ class Experience extends Component {
             // <Badge pill className="experience-badge mr-2 mb-2" key={i}>
             //   {technology}
             // </Badge>
-            <div className="bullet-point">{experience}</div>
+            <div className="bullet-point">
+              <h4>{experience}</h4>
+            </div>
           );
         });
         return (
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={work.years}
-            contentStyle={{ backgroundColor: "#FEF5EF" }}
+            className="vertical-timeline-element--education"
             iconStyle={{
               background: "#584b53",
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={<i className="fas fa-briefcase experience-icon"></i>}
             key={i}
+            contentStyle={{
+              height: "30vh",
+              //marginBlock: "0px",
+            }}
+            //intersectionObserverProps={{ rootMargin: "20px 0px 0px 0px" }}
           >
-            {/* <div
-              style={{
-                textAlign: "left",
-                marginBottom: "4px",
-                fontFamily: "Georgia",
-              }}
-            >
-              {mainTech}
-            </div> */}
-
             <h3
               className="vertical-timeline-element-title"
               style={{
                 textAlign: "left",
-                fontFamily: "Raleway, sans-serif",
+                fontFamily: "Georgia, Raleway, sans-serif",
                 fontWeight: "bolder",
               }}
             >
@@ -67,20 +62,20 @@ class Experience extends Component {
               style={{
                 textAlign: "left",
                 fontFamily: "Georgia",
-                fontWeight: "bold",
+                fontWeight: "medium",
               }}
             >
               @{work.company}
             </h4>
-            <div
-              style={{
-                textAlign: "left",
-                marginTop: "15px",
-                marginBottom: "5px",
-              }}
+            <br />
+            <h2
+              className="common-text"
+              style={{ textAlign: "left", margin: "auto" }}
             >
-              {tech}
-            </div>
+              {work.years}
+            </h2>
+
+            {tech}
           </VerticalTimelineElement>
         );
       });
@@ -91,9 +86,8 @@ class Experience extends Component {
         id="resume"
         className="pb-5"
         style={{
-          height: window.innerHeight * 1.8,
+          height: window.innerHeight * 3,
           display: "block",
-          backgroundColor: "#D6E3F8",
         }}
       >
         <div className="col-md-12 mx-auto">
@@ -105,14 +99,14 @@ class Experience extends Component {
         </div>
         <div
           className="col-md-8 mx-auto"
-          style={{ marginTop: "2%", marginBottom: "5%" }}
+          //style={{ marginTop: "2%", marginBottom: "5%" }}
         >
-          <VerticalTimeline layout={"1-column-left"}>
+          <VerticalTimeline layout={"1-column-left"} lineColor={"#584b53"}>
             {work}
             <VerticalTimelineElement
               iconStyle={{
-                background: "#949398FF",
-                color: "#fff",
+                //background: "#949398FF",
+                // color: "#fff",
                 textAlign: "center",
               }}
               icon={
