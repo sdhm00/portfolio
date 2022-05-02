@@ -272,7 +272,7 @@ header h1 {
 .resume-icon-style {
 	background: #584b53;
 	color: #fff;
-	textAlign: center;
+	text-align: center;
 }
 
 .experience-icon {
@@ -639,10 +639,13 @@ footer a:focus {
 
 .profile-img {
 	width: 40vh;
-	height: auto;
+	//height: auto;
 	//object-fit: contain;
-	object-position: -50px -55px;
-	margin: -2% auto auto -2%;
+	//object-position: -40% -70px;
+	bottom: 30%;
+	right: 30%;
+	//margin: -2% auto auto -2%;
+	position: relative;
 	transition: all 300ms linear;
 
 }
