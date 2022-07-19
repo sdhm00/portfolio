@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
-import profilepic from "../assets/images/mypic4.JPG";
+import profilepic from "../assets/images/mypic4.jpg";
 
 class Header extends Component {
   titles = [];
@@ -45,80 +45,79 @@ class Header extends Component {
     return (
       <header
         id="home"
-        style={{ height: window.innerHeight, display: "block" }}
+        style={{ height: window.innerHeight, display: "block", width: "100vw" }}
       >
-        <div className="row aligner" style={{ height: "100%" }}>
-          <div className="col-md-12">
-            <div>
-              {/* laptop icon */}
-              {/* <span
-                className="iconify header-icon"
-                data-icon="logos:codersrank"
-                data-inline="false"
-              ></span> */}
-              <div className="profile-pic-container">
-                <img
-                  className="profile-img"
-                  //width="350px"
-                  src={profilepic}
-                  alt="Avatar placeholder"
-                />
+        <div className="row aligner" style={{ height: "100%", width: "100%" }}>
+          <div className="col-4" style={{}}>
+            <div className="pic-container">
+              <img src={profilepic} alt="J. C" />
+              <div class="overlay">
+                <h2>
+                  Welcome <span>!</span>
+                </h2>
+                <p>this is my website</p>
               </div>
-              <br />
-              <h3 className="mb-0" style={{ height: "50px" }}>
-                <Typical
-                  className="title-sub-intro"
-                  steps={["Welcome!", 1500, "my name is"]}
-                  wrapper="p"
-                />
-              </h3>
-              <h1 className="mb-0">
-                <Typical className="title-name" steps={[name]} wrapper="p" />
-              </h1>
-              <div className="title-container">
-                <HeaderTitleTypeAnimation />
-              </div>
-              <Switch
-                checked={this.state.checked}
-                onChange={this.onThemeSwitchChange}
-                offColor="#656c7e"
-                onColor="#f8e479"
-                className="react-switch mx-auto"
-                width={90}
-                height={40}
-                uncheckedIcon={
-                  <span
-                    className="iconify"
-                    data-icon="emojione-v1:first-quarter-moon-face"
-                    data-inline="false"
-                    style={{
-                      display: "block",
-                      height: "100%",
-                      fontSize: 28,
-                      textAlign: "end",
-                      marginLeft: "16px",
-                      color: "#353239",
-                    }}
-                  ></span>
-                }
-                checkedIcon={
-                  <span
-                    className="iconify"
-                    data-icon="twemoji:sun"
-                    data-inline="false"
-                    style={{
-                      display: "block",
-                      height: "100%",
-                      fontSize: 25,
-                      textAlign: "end",
-                      marginLeft: "10px",
-                      color: "#353239",
-                    }}
-                  ></span>
-                }
-                id="icon-switch"
-              />
             </div>
+            <br />
+          </div>
+          <div className="col-6">
+            <h3 className="mb-0 title-sub-intro" style={{ height: "50px" }}>
+              Hello! my name is
+              {/* <Typical
+                className="title-sub-intro"
+                steps={[""]}
+                wrapper="p"
+              /> */}
+            </h3>
+
+            <h1 className="mb-0">
+              <Typical className="title-name" steps={[name]} wrapper="p" />
+            </h1>
+
+            <div className="title-container">
+              <h2>I'm a</h2>
+              <HeaderTitleTypeAnimation />
+            </div>
+            <Switch
+              checked={this.state.checked}
+              onChange={this.onThemeSwitchChange}
+              offColor="#656c7e"
+              onColor="#f8e479"
+              className="react-switch mx-auto"
+              width={90}
+              height={40}
+              uncheckedIcon={
+                <span
+                  className="iconify"
+                  data-icon="emojione-v1:first-quarter-moon-face"
+                  data-inline="false"
+                  style={{
+                    display: "block",
+                    height: "100%",
+                    fontSize: 28,
+                    textAlign: "end",
+                    marginLeft: "16px",
+                    color: "#353239",
+                  }}
+                ></span>
+              }
+              checkedIcon={
+                <span
+                  className="iconify"
+                  data-icon="twemoji:sun"
+                  data-inline="false"
+                  style={{
+                    display: "block",
+                    height: "100%",
+                    fontSize: 25,
+                    textAlign: "end",
+                    marginLeft: "10px",
+                    color: "#353239",
+                  }}
+                ></span>
+              }
+              id="icon-switch"
+            />
           </div>
         </div>
       </header>

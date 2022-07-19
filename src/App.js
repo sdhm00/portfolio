@@ -8,7 +8,8 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Fade from "react-reveal/Fade";
-
+import {
+  Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller, } from "react-scroll";
 import Reveal from "react-reveal/Reveal";
 
 class App extends Component {
@@ -100,6 +101,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        {/* <Bars /> */}
         <Header sharedData={this.state.sharedData.basic_info} />
         {/* <div className="col-md-12 mx-auto text-center language">
           <div
@@ -139,6 +141,7 @@ class App extends Component {
             ></span>
           </div>
         </div> */}
+
         <Fade left>
           <About
             resumeBasicInfo={this.state.resumeData.basic_info}
@@ -171,9 +174,17 @@ class App extends Component {
         </Fade>
 
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+        {/* </Routes> */}
       </div>
     );
   }
 }
-
+function Bars() {
+  return (
+    <div className="header-bar">
+      <h2>Welcome to the homepage!</h2>
+      <p>You can do this, I believe in you.</p>
+    </div>
+  );
+}
 export default App;

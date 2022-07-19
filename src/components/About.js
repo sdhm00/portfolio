@@ -94,7 +94,7 @@ class About extends Component {
               </div>
 
               <div className="col-md-8">
-                <div className="col-md-10">
+                <div className="col-md-12">
                   <div className="shadow-lg card" style={{ height: "auto" }}>
                     <div className="card-header">
                       <span
@@ -120,7 +120,10 @@ class About extends Component {
                       style={{
                         height: "auto",
                         fontSize: "100%",
-                        lineHeight: "200%",
+                        lineHeight: "2em",
+                        // width: "100%",
+                        textAlign:"center",
+                        // display: "block",
                       }}
                     >
                       <br />
