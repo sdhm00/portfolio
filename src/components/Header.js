@@ -45,10 +45,10 @@ class Header extends Component {
     return (
       <header
         id="home"
-        style={{ height: window.innerHeight, display: "block", width: "100vw" }}
+        style={{ height: window.innerHeight - 200, display: "block"}}
       >
-        <div className="row aligner" style={{ height: "100%", width: "100%" }}>
-          <div className="col-4" style={{}}>
+        {/* <div className="row aligner" style={{ height: "100%", width: "100%" }}> */}
+          {/* <div className="col-4" style={{}}>
             <div className="pic-container">
               <img src={profilepic} alt="J. C" />
               <div class="overlay">
@@ -59,15 +59,10 @@ class Header extends Component {
               </div>
             </div>
             <br />
-          </div>
-          <div className="col-6">
+          </div> */}
+          {/* <div className="col-6"> */}
             <h3 className="mb-0 title-sub-intro" style={{ height: "50px" }}>
               Hello! my name is
-              {/* <Typical
-                className="title-sub-intro"
-                steps={[""]}
-                wrapper="p"
-              /> */}
             </h3>
 
             <h1 className="mb-0">
@@ -75,9 +70,9 @@ class Header extends Component {
             </h1>
 
             <div className="title-container">
-              <h2>I'm a</h2>
               <HeaderTitleTypeAnimation />
             </div>
+            <br/>
             <Switch
               checked={this.state.checked}
               onChange={this.onThemeSwitchChange}
@@ -118,8 +113,8 @@ class Header extends Component {
               }
               id="icon-switch"
             />
-          </div>
-        </div>
+          {/* </div> */}
+        {/* </div> */}
       </header>
     );
   }

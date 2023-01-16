@@ -84,13 +84,11 @@ class Skills extends Component {
           </div>
           <div
             style={{
-              //justifySelf: "center",
               width: "60%",
               height: "auto",
               display: "block",
-              // backgroundColor: "red",
               margin: "auto",
-              marginTop: "5%",
+              marginTop: "10px",
             }}
           >
             <h3

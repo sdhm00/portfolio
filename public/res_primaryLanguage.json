@@ -1,8 +1,8 @@
 {
     "basic_info": {
-      "description_header": "a Developer, a Researcher, Quant and a Crypto Lover",
+      "description_header": "Developer + Researcher = Quant",
       "description": "Jeffrey works as Algo Engineer at BlackRock where he develops advanced algorithms and optimization methods to create next-generation portfolio trading engine. He also has a strong research background in machine learning and large-scale/unstructured data analysis (former Analytical Chemistry Lab Researcher)",
-      "passions": "Through various trading competitions and rigorous MFE coursework, Jeffrey possesses hands-on experience in alpha generation, statistical arbitrage, and asset allocation models. He is also passionate about crypto and Defi applications",
+      "passions": "Jeffrey possess solid quantitative skillsets and a flair for scientific research, also well-practiced with various machine learning models and algorithms development.",
       "section_name": {
         "about": "About",
         "projects": "Projects",
@@ -84,17 +84,20 @@
     "experience": [
       {
         "company": "BlackRock",
-        "title": "Algo Engineer Associate, ETF & Index Investing",
+        "title": "Algo Engineer Associate, EII",
         "years": "Feb 2022 - present",
         "mainTech": [
-          "asdf"
+          "Index Equity",
+          "ETF",
+          "Portfolio Optimization",
+          "Portfolio Construction",
+          "Algo Development",
+          "ETL", "Pipeline"
         ],
         "technologies": [
-          "• Architect wholistic framework to automate portfolio management through meta-algo to build next-generation efficient trading engine library for BlackRock. Current team AUM 50B+",
-          "• Built efficient algorithms for data pipeline and hyper api to enhance dataflow performance between data storage and portfolio interface, presented 3x faster runtime in result",
-          "• Designed decision system to automate the ETF creation/redemption process that matches trading limitations and constraints for industry, sector, country etc"
-          
-          
+          "Python", "C++","Docker",
+          "Azure", "DevOps",
+          "Tableau", "Aladdin"
         ]
       },
       {
@@ -102,26 +105,29 @@
         "title": "UCLA Joint Researcher",
         "years": "Mar 2021 - Dec 2021",
         "mainTech": [
-          "Angular 7/8"
+          "Fixed Income",
+          "Mixed Integer Programming",
+          "Stratified Sampling",
+          "Asset Allocation Modelling"
         ],
         "technologies": [
-          "• Perform a research on the optimization techniques for passive tracking portfolio, including indepth study on stratified sampling in 3-dimensional strata, mix-integer optimizer and asset allocation model",
-          "• Constructed a portfolio to passively tracks the Bloomberg Barclay US aggregate fixed income index using stratified sampling in 3-dimensional strata with different characteristics",
-          "• Build a convex optimizer (mixed-integer) to create two-layer portfolio optimized weights that match the duration, convexity, and DTS of the benchmark",
-          "• Developed asset sector allocation model from optimized portfolio to maximize the yield with constraint tracking errors"
+          "Python",
+          "Cvxpy"
         ]
       },
       {
         "company": "CBOE Global Markets",
-        "title": "Derivative Strats Intern",
+        "title": "Quant Research Intern, Derivative Strats Team",
         "years": "Jun 2021 - Aug 2021",
         "mainTech": [
-          "Angular 7/8"
+          "Derivatives Pricing",
+          "Machine Learning",
+          "Index implementation",
+          "Time Series Classification",
+          "VIX Futures Trading"
         ],
         "technologies": [
-          "• Using machine learning models tools to analyze VIX future trading strategies pattern and building quantitative models to support new index development and derivative in-house pricing librabry",
-          "• Utilized machine learning tools (Kmeans and DTW) to build time-seires classification model to identify VIX futures trading strategies",
-          "• Collaborated with Northwestern University Professors to implement a new left-tail index that introduces robust measure of volatility jump risk"
+          "Python"
         ]
       },
       {
@@ -129,13 +135,11 @@
         "title": "Quantitative Analyst Intern",
         "years": "Nov 2020 - Jan 2021",
         "mainTech": [
-          "Angular 7/8"
+          "Quantitative Tooling",
+          "BackTesting"
         ],
         "technologies": [
-          "• Work with Seasoned Quant Reseacher and Machine Learning Engineer do develop comprehensive and robust deep learning model for alpha generation",
-          "• Engineered data pipeline for Big-Data (over 20 GB and +200M datapoint of index returns) to proxy market dynamics",
-          "• Analyzed the impact of the VIX regimes switching on the portfolio's performance and provided stepwise improvements",
-          "• Built back-testing tools for drawdown and alpha calculation and performed code optimization"
+          "Python", "SQL"
         ]
       }
     ],

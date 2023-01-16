@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
-import profilepic from "../assets/images/myProfile.jpg";
+import profilepic from "../assets/images/mypic4.jpg";
 import Badge from "react-bootstrap/Badge";
 import { Balance, Molecule, Window } from "pebble-icons";
 
@@ -62,38 +62,25 @@ class About extends Component {
           display: "block",
         }}
       >
-        <div style={{ width: "90%" }}>
+        <div style={{ width: "100%" }}>
           <div className="col-md-12">
             <h1 style={{ color: "black", marginBottom: "70px" }}>
               <span>{sectionName}</span>
             </h1>
             <div className="row mx-auto mb-5">
-              <div className="m-auto">
-                {mainChar}
-                {/* <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
-                  <img
-                    height="350px"
-                    src={profilepic}
-                    alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                </span>
-              </div> */}
+              <div className="col-md-3">
+                <div className="pic-container">
+                  <img src={profilepic} alt="J. C" />
+                  <div class="overlay">
+                    <h2>
+                      Welcome <span>!</span>
+                    </h2>
+                    <p>this is my website</p>
+                  </div>
+                </div>
+                <br />
               </div>
-
-              <div className="col-md-8">
+              <div className="col-md-7">
                 <div className="col-md-12">
                   <div className="shadow-lg card" style={{ height: "auto" }}>
                     <div className="card-header">
@@ -122,7 +109,7 @@ class About extends Component {
                         fontSize: "100%",
                         lineHeight: "2em",
                         // width: "100%",
-                        textAlign:"center",
+                        textAlign: "center",
                         // display: "block",
                       }}
                     >

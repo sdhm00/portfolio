@@ -263,7 +263,8 @@ header h1 {
 
 #resume {
 	// background: #efe1bd;
-	background: #D6E3F8;
+	background: #e5eaf5;
+	// background: #bccbde;
 	//height: 100vh;
 	width: 100%;
 }
@@ -293,8 +294,8 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #CE7DA5 !important;
-	color: white;
+	background-color: #d9f9ff !important;
+	color: #000;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -602,7 +603,7 @@ header h1 {
 }
 
 .skill-icon:hover {
-	color: violet 600;
+	color: #aeefd2;
 }
 
 footer {
@@ -850,7 +851,7 @@ $bg-color: #455e9c;
 	@include circle($h, $w);
 	border: 6px solid #FFF;
 	position: relative;
-	//z-index: 2;
+	z-index: 2;
 }
 
 
@@ -917,7 +918,7 @@ $bg-color: #455e9c;
 		border-radius: .5em .5em 5.563em 5.563em;
 		width: 130px; //270px;
 		height: 135px; //250px;
-		bottom: -60px; //-75px; //130
+		bottom: -68px; //-75px; //130
 		left: -15px; //30
 		background-color: #2effe7;
 		border-radius: 40%;
