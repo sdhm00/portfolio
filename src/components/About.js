@@ -57,7 +57,7 @@ class About extends Component {
         className="mx-auto"
         id="about"
         style={{
-          height: window.innerHeight,
+          height: window.innerHeight + 100,
           //width: "90%",
           display: "block",
         }}

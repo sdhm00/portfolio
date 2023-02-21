@@ -69,7 +69,7 @@ class Education extends Component {
     return (
       <section
         id="edu"
-        style={{ height: window.innerHeight, display: "block" }}
+        style={{ height: window.innerHeight + 90, display: "block" }}
       >
         <div className="col-md-12">
           <div className="col-md-12">

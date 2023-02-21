@@ -31,7 +31,7 @@ class Skills extends Component {
     return (
       <section
         id="skills"
-        style={{ height: window.innerHeight - 200, display: "block" }}
+        style={{ height: window.innerHeight + 90, display: "block" }}
       >
         <div className="col-md-12">
           <div className="col-md-12">
