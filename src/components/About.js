@@ -6,7 +6,10 @@ import Fade from "react-reveal/Fade";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
-import profilepic from "../assets/images/mypic4.jpg";
+import profilepic from "../assets/images/mypic4.JPG";
+// import profilepic from './src/assets/images/mypic4.JPG';
+// /src/assets/images/mypic3.JPG
+
 import Badge from "react-bootstrap/Badge";
 import { Balance, Molecule, Window } from "pebble-icons";
 
@@ -71,6 +74,7 @@ class About extends Component {
               <div className="col-md-3">
                 <div className="pic-container">
                   <img src={profilepic} alt="J. C" />
+                  {/* <h3>Missing</h3> */}
                   <div class="overlay">
                     <h2>
                       Welcome <span>!</span>

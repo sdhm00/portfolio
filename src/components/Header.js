@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
-import profilepic from "../assets/images/mypic4.jpg";
 
 class Header extends Component {
   titles = [];
