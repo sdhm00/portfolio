@@ -12,20 +12,27 @@
     },
     "experience": [
       {
-        "company": "HeadStarter",
+        "company": "HeadStarter AI",
         "title": "Fellowship",
-        "years": "July 2024 - present",
+        "years": "July 2024 - Aug 2024",
         "mainTech": [
           ""
         ],
         "technologies": [
-          ""
+          "Node.js",
+          "Next.js",
+          "React.js",
+          "Python",
+          "Firebase",
+          "OpenAI",
+          "Pinecone",
+          "Clerk"
         ]
       },
       {
         "company": "Mapsimum Mobile",
         "title": "Junior Software Engineer",
-        "years": "May 2024 - present",
+        "years": "May 2024 - Aug 2024",
         "mainTech": [
           ""
         ],
@@ -43,6 +50,78 @@
     ],
     "projects": [
       {
+        "title": "AI Flashcards",
+        "startDate": "2024",
+        "description": "A gym rats best friend! Wondering what the macros are looking like for you meal? Look no further as this calculator will let you know! Need a recipe with foods you have? Need Advice from an AI? This is the Calculator for you. Project made at a hackathon.",
+        "images": [
+          "images/portfolio/photography/download.jpg",
+          "images/portfolio/photography/Workout.jpeg"
+        ],
+        "url": "https://github.com/RamsesRomeroJr/MacroCalc",
+        "technologies": [
+          {
+            "class": "devicon-nextjs-plain",
+            "name": "Next.js"
+          }, 
+          {
+            "class": "",
+            "name": "OpenAI"
+          },
+          {
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          }
+        ]
+      },
+      {
+        "title": "AI Rate My Professor",
+        "startDate": "2024",
+        "description": "A gym rats best friend! Wondering what the macros are looking like for you meal? Look no further as this calculator will let you know! Need a recipe with foods you have? Need Advice from an AI? This is the Calculator for you. Project made at a hackathon.",
+        "images": [
+          "images/portfolio/photography/download.jpg",
+          "images/portfolio/photography/Workout.jpeg"
+        ],
+        "url": "https://github.com/RamsesRomeroJr/MacroCalc",
+        "technologies": [
+          {
+            "class": "devicon-nextjs-plain",
+            "name": "Next.js"
+          }, 
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "",
+            "name": "OpenAI"
+          }
+        ]
+      },
+      {
+        "title": "AI chatbot",
+        "startDate": "2024",
+        "description": "A gym rats best friend! Wondering what the macros are looking like for you meal? Look no further as this calculator will let you know! Need a recipe with foods you have? Need Advice from an AI? This is the Calculator for you. Project made at a hackathon.",
+        "images": [
+          "images/portfolio/photography/download.jpg",
+          "images/portfolio/photography/Workout.jpeg"
+        ],
+        "url": "https://github.com/RamsesRomeroJr/MacroCalc",
+        "technologies": [
+          {
+            "class": "devicon-nextjs-plain",
+            "name": "Next.js"
+          }, 
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "",
+            "name": "OpenAI"
+          }
+        ]
+      },
+      {
         "title": "Macros Calculator",
         "startDate": "2023",
         "description": "A gym rats best friend! Wondering what the macros are looking like for you meal? Look no further as this calculator will let you know! Need a recipe with foods you have? Need Advice from an AI? This is the Calculator for you. Project made at a hackathon.",
@@ -55,6 +134,10 @@
           {
             "class": "devicon-python-plain",
             "name": "Python"
+          }, 
+          {
+            "class": "",
+            "name": "OpenAI"
           }
         ]
       },

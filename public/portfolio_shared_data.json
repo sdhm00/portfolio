@@ -3,11 +3,7 @@
       "name": "Keshav Kalia",
       "titles": [ "Informatics Student @ UW", "Junior Software Engineer @ Mapsimum", "SWE Fellow @ Headstarter" ],
       "social": [
-        {
-          "name": "github",
-          "url": "https://github.com/KeshavKalia4",
-          "class": "fab fa-github"
-        },
+
         {
           "name": "linkedin",
           "url": "https://www.linkedin.com/in/keshavkalia4/",
@@ -22,7 +18,8 @@
       "image": "IMG_1135.JPG"
     },
     "skills": {
-      "icons": [
+      "icons": 
+      [
         {
           "name": "Python",
           "class": "devicon-python-plain",
@@ -39,9 +36,19 @@
           "level": "70"
         },
         {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain",
+          "level": "85"
+        },
+        {
           "name": "React",
           "class": "devicon-react-plain",
           "level": "95"
+        },
+        {
+          "name": "Next.js",
+          "class": "devicon-nextjs-plain",
+          "level": "90"
         },
         {
           "name": "HTML 5",
@@ -61,7 +68,12 @@
         {
           "name": "MySql",
           "class": "devicon-mysql-plain",
-          "level": "60"
+          "level": "95"
+        },
+        {
+          "name": "Firebase",
+          "class": "devicon-firebase-plain",
+          "level": "90"
         },
         {
           "name": "Flask",
@@ -69,5 +81,9 @@
           "level": "95"
         }
       ]
+      
+
+      
+
     }
   }
