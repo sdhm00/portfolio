@@ -9,11 +9,13 @@
           "url": "https://www.linkedin.com/in/keshavkalia4/",
           "class": "fab fa-linkedin"
         },
+        
         {
           "name": "instagram",
           "url": "https://www.instagram.com/keshavkalia4/",
           "class": "fab fa-instagram"
         }
+        
       ],
       "image": "IMG_1135.JPG"
     },
