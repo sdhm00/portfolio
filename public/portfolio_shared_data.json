@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Keshav Kalia",
-      "titles": [ "Informatics Student @ UW", "Junior Software Engineer @ Mapsimum", "SWE Fellow @ Headstarter" ],
+      "titles": [ "Informatics Student @ UW", "SWE @ OpenQQuantify"],
       "social": [
 
         {
@@ -15,7 +15,7 @@
           "url": "https://www.instagram.com/keshavkalia4/",
           "class": "fab fa-instagram"
         }
-        
+
       ],
       "image": "IMG_1135.JPG"
     },
