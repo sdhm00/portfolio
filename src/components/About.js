@@ -30,10 +30,14 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
-                    style={{ width: "auto", height: "auto" }}
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      maxWidth: "250px",
+                      borderRadius: "8px",
+                    }}
                     src={process.env.PUBLIC_URL + "/" + profilepic}
-                    alt="Avatar placeholder"
+                    alt="Rhea's headshot avatar"
                   />
                   <Icon
                     icon={angularIcon}
