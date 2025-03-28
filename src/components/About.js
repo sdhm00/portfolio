@@ -31,7 +31,7 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="250px"
-                    style={{ width: "100%", height: "auto" }}
+                    style={{ width: "auto", height: "auto" }}
                     src={process.env.PUBLIC_URL + "/" + profilepic}
                     alt="Avatar placeholder"
                   />
