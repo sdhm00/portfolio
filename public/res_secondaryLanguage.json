@@ -11,8 +11,8 @@
   },
   "projects": [
     {
-      "title": "Projet Sophie Bluel",
-      "description": "Création d'une page web dynamique avec JavaScript",
+      "title": "Project Sophie Bluel",
+      "description": "Creation of a dynamic web page with JavaScript",
       "images": [
         "images/portfolio/projet_SophieBluel/Sophie_bluel.png",
         "images/portfolio/projet_SophieBluel/Sophie_contact.png",
@@ -36,8 +36,8 @@
       ]
     },
     {
-      "title": "Projet Kasa App",
-      "description": "Création d'une application web de location immobilière avec React",
+      "title": "Project Kasa App",
+      "description": "For this project we were asked to create the FrontEnd part of a website, with the help of the BackEnd and the model we were given. So I coded a home page, an about page, an error page and a page for the lodging. The home page had to contain the lodging, taken from the BackEnd in a dynamic way. When the user clicks on one of them, they were sent to the page of the lodging they selected. Each lodging page had to have a carousel of images showing what they selected, and information about it like the location, a description or even a list of the equipment included. For the about page we had to make a dropdown that showed the information posted and for the error page we had to make sure the user would be sent to the page in case of an error, like for example if an ID is wrong.",
       "images": [
         "images/portfolio/projet_KasaApp/Kasa_app.png",
         "images/portfolio/projet_KasaApp/Kasa_app_about.png",

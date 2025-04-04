@@ -37,7 +37,7 @@
       },
       {
         "title": "Projet Kasa App",
-        "description": "Création d'une application web de location immobilière avec React",
+        "description": "Pour ce projet on nous demandait de réaliser le FrontEnd d'un site web, avec l'aide de la maquette et d'un BackEnd fournis. J’ai donc réalisé une page d'accueil, une page à propos, une page erreur ainsi que des pages pour les logements. La page d'accueil devait contenir, de manière dynamique, les logements contenus dans le Backend. Lors du clic sur l'un des logements affichés, l’utilisateur devait être renvoyé sur la page du logement sélectionné. Chaque page de logement devait contenir un carrousel d'images montrant une ou plusieurs photos ainsi que des informations comme par exemple la localisation de celui-ci, une description ou encore une liste des équipements inclus. La page à propos devait contenir un système de dropdown affichant les informations souhaitées et la page d'erreur devait s'afficher en cas de problème sur le site, comme par exemple l’ID d'un logement erroné.",
         "images": [
           "images/portfolio/projet_KasaApp/Kasa_app.png",
           "images/portfolio/projet_KasaApp/Kasa_app_about.png",
