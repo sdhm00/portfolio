@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "I'm Pauline, on this page you'll find my portfolio which include 2 of the projects I did during my training, you will also find some informations about my professionnal background. I'm someone creative, who likes to learn new things ",
+    "description": "My name is Pauline, I’m a creative person who likes to learn new things and has a lot of  hobby like video games, reading or drawing. I’m a web developer student, with OpenClassroom and you’ll find my portfolio which includes 2 of the projects I did during my training, and some others information about my professional background.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -63,7 +63,7 @@
   "experience": [
     {
       "company": "Castorama",
-      "title": "Cashier and reatail worker",
+      "title": "Cashier and retail worker",
       "years": "06.2024 - 11.2024",
       "mainTech": [
       ],
@@ -72,8 +72,26 @@
     },
     {
       "company": "Cultura",
-      "title": "Cashier and reatail worker",
+      "title": "Cashier and retail worker",
       "years": "08.2021 - 01.2023",
+      "mainTech": [
+      ],
+      "technologies": [
+      ]
+    },
+    {
+      "company": "Super U",
+      "title": "retail worker",
+      "years": "02.2019 - 08.2020",
+      "mainTech": [
+      ],
+      "technologies": [
+      ]
+    },
+    {
+      "company": "University of Strasbourg",
+      "title": "Art student",
+      "years": "09.2018 - 07.2019",
       "mainTech": [
       ],
       "technologies": [

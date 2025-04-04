@@ -1,8 +1,7 @@
 {
     "basic_info": {
       "description_header": "Bonjour",
-      "description": "Je suis Pauline, vous trouverez sur cette page mon portfolio qui présente 2 des projets effectués durant ma formation, ainsi que quelques informations supplémentaires sur mon parcours. Je suis quelqu'un de créative, qui aime apprendre de nouvelles choses.",
-      "section_name": {
+        "description": "Je m’appelle Pauline, je suis quelqu’un de créative qui aime apprendre de nouvelles choses, et ai de nombreux centres d’intérêts comme les jeux vidéos, la lecture ou le dessin. Je suis actuellement étudiante intégrateur web chez OpenClassroom et vous trouverez donc sur cette page mon portfolio qui présente 2 des projets effectués durant ma formation, ainsi que quelques informations supplémentaires sur mon parcours.",      "section_name": {
         "about": "A propos de moi",
         "projects": "Projets",
         "skills": "Compétences",
@@ -74,6 +73,24 @@
         "company": "Cultura",
         "title": "Caissière et conseillère de vente",
         "years": "08.2021 - 01.2023",
+        "mainTech": [
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "Super U",
+        "title": "Conseillère de vente",
+        "years": "02.2019 - 08.2020",
+        "mainTech": [
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "Faculté de Strasbourg",
+        "title": "Etudiante en Art plastique",
+        "years": "09.2018 - 07.2019",
         "mainTech": [
         ],
         "technologies": [
