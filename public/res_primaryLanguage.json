@@ -11,44 +11,51 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Projet Sophie Bluel",
+        "description": "Création d'une page web dynamique avec JavaScript",
         "images": [
-          "images/portfolio/projet_KasaApp/Kasa_App.png"
+          "images/portfolio/projet_SophieBluel/Sophie_bluel.png",
+          "images/portfolio/projet_SophieBluel/Sophie_contact.png",
+          "images/portfolio/projet_SophieBluel/Sophie_login.png",
+          "images/portfolio/projet_SophieBluel/Sophie_ajout.png"
         ],
-        "url": "",
+        "url": "https://github.com/sdhm00/Projet_6.git",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/projet_SophieBluel/Sophie_bluel.png"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Projet Kasa App",
+        "description": "Création d'une application web de location immobilière avec React",
+        "images": [
+          "images/portfolio/projet_KasaApp/Kasa_app.png",
+          "images/portfolio/projet_KasaApp/Kasa_app_about.png",
+          "images/portfolio/projet_KasaApp/Kasa_app_location.png"
+        ],
+        "url": "https://github.com/sdhm00/Projet_8_Kasa_App.git",
+        "technologies": [
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
           }
         ]
       }
