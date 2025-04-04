@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Bonjour",
-        "description": "Je m’appelle Pauline, je suis quelqu’un de créative qui aime apprendre de nouvelles choses, et ai de nombreux centres d’intérêts comme les jeux vidéos, la lecture ou le dessin. Je suis actuellement étudiante intégrateur web chez OpenClassroom et vous trouverez donc sur cette page mon portfolio qui présente 2 des projets effectués durant ma formation, ainsi que quelques informations supplémentaires sur mon parcours.",      "section_name": {
+        "description": "Je m’appelle Pauline, je suis une personne créative qui aime apprendre de nouvelles choses, j'ai de nombreux centres d’intérêts comme les jeux vidéos, la lecture ou le dessin. Je suis actuellement étudiante intégrateur web chez OpenClassroom et vous trouverez donc sur cette page mon portfolio qui présente 2 des projets effectués durant ma formation, ainsi que quelques informations supplémentaires sur mon parcours.",      "section_name": {
         "about": "A propos de moi",
         "projects": "Projets",
         "skills": "Compétences",
@@ -90,6 +90,15 @@
       {
         "company": "Faculté de Strasbourg",
         "title": "Etudiante en Art plastique",
+        "years": "09.2018 - 07.2019",
+        "mainTech": [
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "Lycée Général Leclerc",
+        "title": "Bac STMG",
         "years": "09.2018 - 07.2019",
         "mainTech": [
         ],
