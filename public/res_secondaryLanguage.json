@@ -12,7 +12,7 @@
   "projects": [
     {
       "title": "Project Sophie Bluel",
-      "description": "Creation of a dynamic web page with JavaScript",
+      "description": "For this project we were asked to modernise a website to make him more dynamic. We had to get the projects of the architect stocked in the BackEnd to put them into the FrontEnd and make it easier to add new projects in the future. So I created a code that, when the administrator is connected, can be opened to add or erase selected projects.",
       "images": [
         "images/portfolio/projet_SophieBluel/Sophie_bluel.png",
         "images/portfolio/projet_SophieBluel/Sophie_contact.png",
@@ -62,37 +62,21 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
+      "company": "Castorama",
+      "title": "Cashier and reatail worker",
+      "years": "06.2024 - 11.2024",
       "mainTech": [
-        "Angular 8/9/10"
       ],
       "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
+      "company": "Cultura",
+      "title": "Cashier and reatail worker",
+      "years": "08.2021 - 01.2023",
       "mainTech": [
-        "Angular 7/8"
       ],
       "technologies": [
-        "RxJS",
-        "Django",
-        "PHP",
-        "JavaScript",
-        "DHTMLX Gantt"
       ]
     }
   ]

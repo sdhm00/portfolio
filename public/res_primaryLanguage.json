@@ -3,16 +3,16 @@
       "description_header": "Bonjour",
       "description": "Je suis Pauline, vous trouverez sur cette page mon portfolio qui présente 2 des projets effectués durant ma formation, ainsi que quelques informations supplémentaires sur mon parcours. Je suis quelqu'un de créative, qui aime apprendre de nouvelles choses.",
       "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
+        "about": "A propos de moi",
+        "projects": "Projets",
+        "skills": "Compétences",
         "experience": "Experience"
       }
     },
     "projects": [
       {
         "title": "Projet Sophie Bluel",
-        "description": "Création d'une page web dynamique avec JavaScript",
+        "description": "Pour ce projet on nous demandait de refaire un site déjà existant de manière dynamique. On devait donc récupérer les travaux d’une architecte stockées dans le BackEnd et les intégrer dans le Front End pour faciliter les ajouts de futurs projets. J’ai donc créée une modal qui, lorsque l’administrateur du site est connecté, peut être ouverte et permet la suppression ou l’ajout de projet sélectionné.",
         "images": [
           "images/portfolio/projet_SophieBluel/Sophie_bluel.png",
           "images/portfolio/projet_SophieBluel/Sophie_contact.png",
@@ -62,37 +62,21 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Castorama",
+        "title": "Caissière et conseillère de vente",
+        "years": "06.2024 - 11.2024",
         "mainTech": [
-          "Angular 8/9/10"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Cultura",
+        "title": "Caissière et conseillère de vente",
+        "years": "08.2021 - 01.2023",
         "mainTech": [
-          "Angular 7/8"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
         ]
       }
     ]
