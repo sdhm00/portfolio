@@ -1,6 +1,7 @@
-@import '../src/scss/themes/theme-dark.scss';
-@import '../src/scss/themes/theme-light.scss';
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+// @import './scss/themes/theme-dark.scss';
+// @import './scss/themes/theme-light.scss';
 
 html {
 	font-size: 62.5%;
@@ -141,6 +142,7 @@ header h1 {
 	transition: all .20s linear;
 	z-index: 0;
 	position: relative;
+
 }
 
 .foto div:after {
@@ -349,6 +351,10 @@ header h1 {
 	max-width: 100%;
 	margin-bottom: 15px;
 	text-align: center;
+}
+
+.row.mx-auto {
+	justify-content: space-around;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
