@@ -60,7 +60,7 @@
       ]
     },
           {
-        "title": "Projet Argent Bank",
+        "title": "Project Argent Bank",
         "description": "For this project we were asked to create a complete and responsive web app using React. The only documents given were some mock-ups presenting some features to add, a part of the front-end and back-end that we couldn’t use as is. I created a front page for the website, a login page and a user home page where the user could change his username. The front page needed to have a button that sends you to the login page, this page contains a part for the user to fill in his email and password. If the informations are incorrect an error message pops up and if they’re correct the user is sent to the user home page, where you can change your username. In the case where the user does change his username, it’s saved and change the name displayed on the screen. This page also contains a logout button, if the button is pressed the user is logged out and sent to the front page of the website ",
         "images": [
           "images/portfolio/projet_ArgentBank/ArgentBank_HP.png",
