@@ -57,6 +57,23 @@
             "name": "React"
           }
         ]
+      },
+            {
+        "title": "Projet Argent Bank",
+        "description": "Pour ce projet on nous demandait de créer une application web complète et responsive avec React. Les seuls documents données étaient des mock-ups des fonctionnalités à intégrer, une partie du front-end et back-end qui n'étaient pas utilisables tel quel. J'ai donc réalisé une page d'accueil, une page de connexion et une page d'accueil pour l'utilisateur connecté où l'utilisateur peut modifier son username. La page d'accueil devait contenir un bouton qui nous renvoie sur la page de connexion, celle-ci devait contenir un moyen pour l'utilisateur de rentrer son adresse mail et mot de passe pour se connecter, si les informations étaient incorrectes un message d'erreur s'affiche, sinon on est renvoyé sur la page d'accueil utilisateur. Sur celle-ci on devait retrouver les différentes transactions financières de l'utilisateur, ainsi qu'un moyen pour l'utilisateur de modifier son pseudo, si l'utilisateur modifie le pseudo celui-ci est enregisté et remplace celui affiché sur la page. Cette page devait aussi contenir un bouton permettant à l'utilisateur de se déconnecter, si on click sur le bouton on est déconnecté et renvoyé à la page d'accueil du site. ",
+        "images": [
+          "images/portfolio/projet_ArgentBank/ArgentBank_HP.png",
+          "images/portfolio/projet_ArgentBank/ArgentBank_login.png",
+          "images/portfolio/projet_ArgentBank/ArgentBank_profile.png",
+          "images/portfolio/projet_ArgentBank/ArgentBank_PM.png"
+        ],
+        "url": "https://github.com/sdhm00/Projet_11",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
       }
     ],
     "experience": [
